@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    height: 98vh;
+}
+
+.left-pane {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+}
+
+.right-pane {
+    display: flex;
+
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Space Mono', monospace;
+}
