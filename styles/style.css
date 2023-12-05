@@ -99,7 +99,7 @@ button:hover {
   animation-duration: 0.50s, 1.75s;
 }
 
-.card {
+#card-button {
   position: absolute;
   bottom: 45px;
   left: 35px;
@@ -109,6 +109,22 @@ button:hover {
   animation-duration: 0.50s, 1.75s;
 }
 
+.card {
+
+  z-index: 1;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card-child {
+  background-color: red;
+  width: 40%;
+  height: 50vh;
+}
 @keyframes start {
   from {opacity: 0;}
   to {opacity: 0;}

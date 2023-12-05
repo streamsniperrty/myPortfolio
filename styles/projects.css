@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Helvetica';
+    src: url('../fonts/FreeSansBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/FreeSansBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/FreeSansBold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/FreeSansBold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/FreeSansBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/FreeSansBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 600;
+    font-style: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+
+  font-family: 'Helvetica';
+  font-weight: 600;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 20px;
+
+  margin: 4px 2px;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  border: none;
+  color: black;
+  background-color: white;
+  font-family: 'Helvetica';
+
+  border-radius: 8px;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 20px;
+}
+
+.links {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    gap: 10%;
+    padding: 10px 0px 10px 0px;
+
+    background-color: black;
+
+    margin: -8px -8px;
+}
+
+.projects-row1 {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+
+}
+
+.project1-thumbnail {
+    background-image: url('../imgs/thumbnails/project1.png');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+}
+
+.project2-thumbnail {
+    background-image: url('../imgs/thumbnails/project2.png');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+}
