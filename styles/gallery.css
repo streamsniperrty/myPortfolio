@@ -10,6 +10,19 @@
     font-style: bold;
 }
 
+.links {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    gap: 10%;
+    padding: 10px 0px 10px 0px;
+
+    background-color: black;
+
+    margin: -8px -8px;
+}
+
 a {
   text-decoration: none;
 }
@@ -57,67 +70,6 @@ button:hover {
 
   font-size: 40px;
   font-family: 'Helvetica';
-}
-
-.links {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-
-    gap: 10%;
-    padding: 10px 0px 10px 0px;
-
-    background-color: black;
-
-    margin: -8px -8px;
-}
-
-.projects-row1 {
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-
-    font-family: 'Helvetica';
-}
-
-.project1-thumbnail {
-    background-image: url('../imgs/thumbnails/project1.png');
-    background-size: 350px;
-
-    width: 300px;
-    height: 200px;
-
-    border: solid 2px;
-}
-
-.project2-thumbnail {
-    background-image: url('../imgs/thumbnails/project2.png');
-    background-size: 350px;
-
-    width: 300px;
-    height: 200px;
-
-    border: solid 2px;
-}
-
-.project3-thumbnail {
-    background-image: url('../imgs/thumbnails/project3.png');
-    background-size: 350px;
-
-    width: 300px;
-    height: 200px;
-
-    border: solid 2px;
-}
-
-.project4-thumbnail {
-    background-image: url('../imgs/thumbnails/project4.png');
-    background-size: 350px;
-
-    width: 300px;
-    height: 200px;
-
-    border: solid 2px;
 }
 
 body {
