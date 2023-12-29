@@ -1,11 +1,6 @@
 $(document).ready(function() {
     $("#card-button").click(() => {
-        alert("Hello World!");
+        alert("This feature is not available...yet. :( \nFull screen picture view is not available yet (in the gallery tab.)");
     });
-
-    $("#home-button").click(() => {
-        $("body").css("animation", "exit");
-        $("body").css("animation-duration", "3s");
-    })
 });
 

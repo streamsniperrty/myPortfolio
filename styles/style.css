@@ -237,3 +237,16 @@ button:hover {
   from {};
   to {}
 }
+
+#overlayDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    z-index:99;
+
+    background-color: red;
+
+    display: grid;
+}

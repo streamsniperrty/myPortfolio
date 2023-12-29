@@ -81,3 +81,147 @@ body {
   from {opacity: 0; margin-top: 150px;}
   to {opacity: 1; margin-top: 8px;}
 }
+
+
+.gallery-row1 {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+
+    font-family: 'Helvetica';
+}
+
+.photo1 {
+    background-image: url('../imgs/photography/fh.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.photo2 {
+    background-image: url('../imgs/photography/flower.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.photo3 {
+    background-image: url('../imgs/photography/mural.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.photo4 {
+    background-image: url('../imgs/photography/oldCar.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.gallery-row2 {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+
+    margin-top: 40px;
+
+    font-family: 'Helvetica';
+}
+
+.photo5 {
+    background-image: url('../imgs/photography/swap.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.photo6 {
+    background-image: url('../imgs/photography/me.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.photo7 {
+    background-image: url('../imgs/photography/MetroNorth.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.photo8 {
+    background-image: url('../imgs/photography/sunset.jpg');
+    background-size: 350px;
+
+    width: 300px;
+    height: 200px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.gallery-row3 {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+
+    margin-top: 40px;
+
+    font-family: 'Helvetica';
+}
+
+.photo9 {
+    background-image: url('../imgs/photography/samantha.jpg');
+    background-size: 275px;
+
+    width: 260px;
+    height: 400px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.photo10 {
+    background-image: url('../imgs/photography/soho.jpg');
+    background-size: 330px;
+
+    width: 260px;
+    height: 400px;
+
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+}
